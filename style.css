@@ -20,13 +20,13 @@ a {
 
 /* GitHub Repository Link */
 .github-fork-ribbon:before {
-    background: #f2a900 !important;
+    background: #F7931A !important;
 }
 
 @media (max-width : 960px) {
     h1 {
         font-size: 1.2rem;
-        color: #f2a900;
+        color: #F7931A;
         text-align: center;
     }
     .mobile {
