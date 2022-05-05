@@ -1,6 +1,14 @@
+body {
+    background: #111;
+}
+
 /* Map */
 .svgMap-map-wrapper {
     background: #111 !important;
+}
+
+.mobile {
+    display: none;
 }
 
 
@@ -10,6 +18,16 @@
 }
 
 @media (max-width : 960px) {
+    h1 {
+        font-size: 1.2rem;
+        color: #f2a900;
+        text-align: center;
+    }
+    .mobile {
+        display: block;
+    }
+
+    /* GitHub Repository Link */
     .github-fork-ribbon {
         display: none;
     }
