@@ -1,6 +1,6 @@
 new svgMap({
     targetElementID: 'svgMap',
-    colorNoData: "#555",
+    colorNoData: "#4d4d4e",
     colorMin: "#f2a900",
     colorMax: "#f2a900",
     noDataText: "NGMI",
