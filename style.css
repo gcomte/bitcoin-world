@@ -2,3 +2,15 @@
 .svgMap-map-wrapper {
     background: #111 !important;
 }
+
+
+/* GitHub Repository Link */
+.github-fork-ribbon:before {
+    background: #f2a900 !important;
+}
+
+@media (max-width : 960px) {
+    .github-fork-ribbon {
+        display: none;
+    }
+}
