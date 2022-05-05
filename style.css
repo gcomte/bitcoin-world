@@ -1,11 +1,5 @@
 body {
     background: #111;
-    color: #fff;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
 }
 
 /* Map */
@@ -33,6 +27,7 @@ a {
         display: block;
     }
     footer {
+        color: #fff;
         font-size: 0.7rem;
         text-align: center;
         margin-left: auto;
@@ -41,6 +36,10 @@ a {
     footer i {
         font-size: 2rem;
         padding: 1rem 1rem 0rem 1rem;
+    }
+    footer a {
+        color: #fff;
+        text-decoration: none;
     }
 
     /* GitHub Repository Link */
