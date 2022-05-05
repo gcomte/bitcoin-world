@@ -31,8 +31,16 @@ new svgMap({
         },
         applyData: 'gdp',
         values: {
-            SV: {gdp: 57.95, population: 6830000, date: "Sep 07, 2021"},
-            CF: {gdp: 4.262, population: 4666368, date: "April 28, 2022"},
+            SV: {
+                data: {gdp: 57.95, population: 6830000, date: "Sep 07, 2021"},
+                link: "https://www.cbc.ca/news/world/el-salvador-bitcoin-1.6166977",
+                linkTarget: "_blank"
+            },
+            CF: {
+                data: {gdp: 4.262, population: 4666368, date: "April 28, 2022"},
+                link: "https://news.yahoo.com/central-african-republic-adopts-bitcoin-104407031.html",
+                linkTarget: "_blank"
+            },
         }
     }
 });
