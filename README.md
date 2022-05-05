@@ -1,5 +1,5 @@
 # bitcoin-world
-Bitcoin adoption as legal tender visualized on a world map
+Bitcoin adoption as legal tender visualized on a world map: [bitcoinmap.world](https://bitcoinmap.world/)
 
 ### Contribute
 Pull Requests are welcome!
