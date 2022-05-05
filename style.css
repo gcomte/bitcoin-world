@@ -1,5 +1,11 @@
 body {
     background: #111;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Map */
@@ -25,6 +31,16 @@ body {
     }
     .mobile {
         display: block;
+    }
+    footer {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer i {
+        font-size: 2rem;
+        padding: 1rem 1rem 0rem 1rem;
     }
 
     /* GitHub Repository Link */
