@@ -1,5 +1,6 @@
 body {
     background: #111;
+    font-family: sans-serif;
 }
 
 .mobile {
@@ -19,11 +20,18 @@ body {
     text-decoration: none;
 }
 
+hr {
+    height: 1px;
+    border: none;
+    background-color: #ccc;
+}
+
 .btn-wrapper {
-    margin: 25px;
+    margin: 35px;
 }
 
 .btn {
+    font-size: 0.8rem;
     background-color: #F7931A;
     color: white;
     font-weight: bold;
