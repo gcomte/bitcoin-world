@@ -2,13 +2,39 @@ body {
     background: #111;
 }
 
+.mobile {
+    display: none;
+}
+
+.mobile-body {
+    font-size: 0.7rem;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mobile-body a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-wrapper {
+    margin: 25px;
+}
+
+.btn {
+    background-color: #F7931A;
+    color: white;
+    font-weight: bold;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+
+
 /* Map */
 .svgMap-map-wrapper {
     background: #111 !important;
-}
-
-.mobile {
-    display: none;
 }
 
 
