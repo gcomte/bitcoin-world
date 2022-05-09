@@ -21,12 +21,14 @@ new svgMap({
                 name: 'Population',
                 format: '{0}',
                 thousandSeparator: ',',
-                thresholdMax: 50000,
-                thresholdMin: 1000
             },
             date: {
                 name: 'Bitcoin Legal Tender',
                 format: 'since: {0}',
+            },
+            price: {
+                name: 'Bitcoin price that day',
+                format: '${0}'
             }
         },
         applyData: 'gdp',
@@ -35,6 +37,7 @@ new svgMap({
                 gdp: 57.95,
                 population: 6830000,
                 date: "Sep 07, 2021",
+                price: 47000,
                 link: "https://www.cbc.ca/news/world/el-salvador-bitcoin-1.6166977",
                 linkTarget: "_blank"
             },
@@ -42,6 +45,7 @@ new svgMap({
                 gdp: 4.262,
                 population: 4666368,
                 date: "April 28, 2022",
+                price: 40000,
                 link: "https://news.yahoo.com/central-african-republic-adopts-bitcoin-104407031.html",
                 linkTarget: "_blank"
             },
