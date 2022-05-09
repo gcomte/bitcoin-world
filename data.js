@@ -31,7 +31,7 @@ new svgMap({
             },
             price: {
                 name: 'Bitcoin price that day',
-                format: '${0}'
+                format: '${0}K'
             }
         },
         applyData: 'gdp',
@@ -40,7 +40,7 @@ new svgMap({
                 gdp: 57.95,
                 population: 6830000,
                 date: "Sep 07, 2021",
-                price: 47000,
+                price: 47,
                 link: "https://www.cbc.ca/news/world/el-salvador-bitcoin-1.6166977",
                 linkTarget: "_blank"
             },
@@ -48,7 +48,7 @@ new svgMap({
                 gdp: 4.262,
                 population: 4666368,
                 date: "April 28, 2022",
-                price: 40000,
+                price: 40,
                 link: "https://news.yahoo.com/central-african-republic-adopts-bitcoin-104407031.html",
                 linkTarget: "_blank"
             },
