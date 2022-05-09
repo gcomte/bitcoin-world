@@ -1,8 +1,11 @@
+const BITCOIN_ORANGE = "#F7931A";
+const BITCOIN_GREY = "#4d4d4e";
+
 new svgMap({
     targetElementID: 'svgMap',
-    colorNoData: "#4d4d4e",
-    colorMin: "#F7931A",
-    colorMax: "#F7931A",
+    colorNoData: BITCOIN_GREY,
+    colorMin: BITCOIN_ORANGE,
+    colorMax: BITCOIN_ORANGE,
     noDataText: "NGMI",
     data: {
         data: {
