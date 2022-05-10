@@ -3,6 +3,14 @@ body {
     font-family: sans-serif;
 }
 
+.perc-pos {
+    color: green !important;
+}
+
+.perc-neg {
+    color: red !important;
+}
+
 .mobile {
     display: none;
 }
