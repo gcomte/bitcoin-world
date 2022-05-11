@@ -12,5 +12,5 @@ Here's how the site is structured:
 | CSS styling | `style.css` |
 | Map structure and data | `data.js` |
 
-The map is built with [svgMap](https://github.com/StephanWagner/svgMap).
+The map is built with [svgMap](https://github.com/StephanWagner/svgMap) (v2.7.2).
 
