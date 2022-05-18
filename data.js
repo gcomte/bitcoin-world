@@ -21,6 +21,10 @@ function drawMap() {
         noDataText: "NGMI",
         data: {
             data: {
+                otherLegalTender: {
+                    name: 'Other Legal Tender',
+                    format: '{0}',
+                },
                 gdp: {
                     name: 'GDP',
                     format: '${0} billion',
@@ -49,6 +53,7 @@ function drawMap() {
             applyData: 'gdp',
             values: {
                 SV: {
+                    otherLegalTender: "United States Dollar",
                     gdp: 57.95,
                     population: 6830000,
                     date: "Sep 07, 2021",
@@ -57,6 +62,7 @@ function drawMap() {
                     linkTarget: "_blank"
                 },
                 CF: {
+                    otherLegalTender: "Central African CFA Franc",
                     gdp: 4.262,
                     population: 4666368,
                     date: "April 28, 2022",
